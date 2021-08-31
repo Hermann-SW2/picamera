@@ -1,5 +1,9 @@
 .. -*- rst -*-
 
+Fork mission statement
+======================
+This picamera fork only purpose is to eliminate the need for picamera, as well as necessity of a detected Pi camera, for providing HDMI overlay functionality.
+
 ========
 picamera
 ========
