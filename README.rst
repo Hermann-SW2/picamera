@@ -2,7 +2,7 @@
 
 Fork mission statement
 ======================
-This picamera fork only purpose is to eliminate the need for picamera, as well as necessity of a detected Pi camera, for providing HDMI overlay functionality. This is simple example of crosshair overlay without any caamera preview window:
+This picamera fork only purpose is to eliminate the need for picamera, as well as necessity of a detected Pi camera, for providing HDMI overlay functionality. This is simple example of crosshair overlay without any camera preview window:
 
 .. image:: snapshot.png
 
