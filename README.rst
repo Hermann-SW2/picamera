@@ -2,7 +2,9 @@
 
 Fork mission statement
 ======================
-This picamera fork only purpose is to eliminate the need for picamera, as well as necessity of a detected Pi camera, for providing HDMI overlay functionality.
+This picamera fork only purpose is to eliminate the need for picamera, as well as necessity of a detected Pi camera, for providing HDMI overlay functionality. This is simple example of crosshair overlay without any caamera preview window:
+
+.. image:: snapshot.png
 
 ========
 picamera
@@ -10,6 +12,7 @@ picamera
 
 This package provides a pure Python interface to the `Raspberry Pi`_ `camera`_
 module for Python 2.7 (or above) or Python 3.2 (or above).
+
 
 Links
 =====
