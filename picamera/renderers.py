@@ -439,7 +439,8 @@ class PiOverlayRenderer(PiRenderer):
             plane_size = self.renderer.inputs[0].framesize.pad()
             plane_len = plane_size.width * plane_size.height
             try:
-                format = self.SOURCE_BPP[source_len // plane_len]
+#                format = self.SOURCE_BPP[source_len // plane_len]
+                format = 'rgb'
             except KeyError:
                 raise PiCameraValueError(
                     'unable to determine format from source size')
