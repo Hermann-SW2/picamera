@@ -53,7 +53,6 @@ from functools import reduce
 from operator import mul
 
 from . import bcm_host, mmal
-from .streams import BufferIO
 from .exc import (
     mmal_check,
     PiCameraValueError,
