@@ -19,7 +19,7 @@ b = np.asarray(i)
 def getbuffer(b):
     return np.getbuffer(b) if vi.major<3 else b.tobytes()
 
-renderer = PiOverlayRenderer(None, getbuffer(b), resolution=(800,600), fullscreen=True, layer=3, alpha=128)
+renderer = PiOverlayRenderer(None, getbuffer(b), resolution=(800,480), fullscreen=True, layer=3, alpha=128)
 
 try:
     # Wait indefinitely until the user terminates the script
