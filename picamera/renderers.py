@@ -497,9 +497,9 @@ class PiPreviewRenderer(PiRenderer):
             self, parent, source, resolution=None, layer=2, alpha=255,
             fullscreen=True, window=None, crop=None, rotation=0, vflip=False,
             hflip=False, anamorphic=False):
-        super(PiPreviewRenderer, self).__init__(
-            parent, layer, alpha, fullscreen, window, crop,
-            rotation, vflip, hflip, anamorphic)
+#        super(PiPreviewRenderer, self).__init__(
+#            parent, layer, alpha, fullscreen, window, crop,
+#            rotation, vflip, hflip, anamorphic)
         self._parent = parent
         if resolution is not None:
             resolution = mo.to_resolution(resolution)
